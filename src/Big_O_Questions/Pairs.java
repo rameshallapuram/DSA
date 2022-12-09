@@ -9,7 +9,7 @@ public class Pairs {
      static void function(int [] arr){
         for(int i = 0; i<arr.length; i++){     //O(N)
             for(int j=0; j<arr.length; j++){     //O(N)
-                System.out.println(arr[i]+","+arr[j]);  //O(N)
+                System.out.println(arr[i]+","+arr[j]);  //O(1)
             }
         }
      }
